@@ -33,21 +33,41 @@ export default function App() {
             Contact Me
           </a>
         </div>
-        <div style={{backgroundColor:"#4f46e5", padding:"20px", marginTop:"10px"}}>
-          <p>Latest Personal project</p>
+        <div
+          style={{
+            backgroundColor: "#4f46e5",
+            padding: "20px",
+            marginTop: "10px",
+          }}
+        >
+          <h3>Latest Personal project</h3>
+          <p>LMS-Learning Mangament System</p>
           <a
             href="https://growskill-6gaq.onrender.com/"
+            style={{
+              color: "white",
+              cursor: "pointer",
+              fontSize: "17px",
+              marginRight: "20px",
+            }}
+          >
+            🔗Live Site
+          </a>
+          <a
+            href="https://github.com/shubhiawasthi13/Growskill"
             style={{ color: "white", cursor: "pointer", fontSize: "17px" }}
           >
-            -- LMS-Learning Mangament System --
+            📂Source Code
           </a>
-         <p>
-  💳 <strong>Test Stripe Payment:</strong> Use card number <code>4242 4242 4242 4242</code>, CVV <code>123</code>, and any future expiry date.
-</p>
-<p>
-  🔐 <strong>Admin Panel Login:</strong> Email: <code>shubhi@gmail.com</code>, Password: <code>1234</code>
-</p>
-
+          <p>
+            💳 <strong>Test Stripe Payment:</strong> Use card number{" "}
+            <code>4242 4242 4242 4242</code>, CVV <code>123</code>, and any
+            future expiry date.
+          </p>
+          <p>
+            🔐 <strong>Admin Panel Login:</strong> Email:{" "}
+            <code>shubhi@gmail.com</code>, Password: <code>1234</code>
+          </p>
         </div>
       </section>
 
@@ -116,7 +136,11 @@ export default function App() {
           <hr />
           <h4>EatOpay- Digital Menu with Admin Panel</h4>
           <hr />
-          <h3>Customer Pannel</h3>
+          <h3>
+            <a href="https://github.com/shubhiawasthi13/customer-pannel">
+              Customer Pannel{" "}
+            </a>
+          </h3>
           <div className="projects-grid">
             <div className="project-card">
               <img
@@ -147,7 +171,11 @@ export default function App() {
             </div>
           </div>
 
-          <h3>Admin Pannel</h3>
+          <h3>
+            <a href="https://github.com/shubhiawasthi13/admin-panel">
+              Admin Pannel
+            </a>
+          </h3>
           <div className="projects-grid">
             <div className="project-card">
               <img
@@ -204,7 +232,11 @@ export default function App() {
               <h3>History Page</h3>
             </div>
           </div>
-          <h3>Super Admin Pannel</h3>
+          <h3>
+            <a href="https://github.com/shubhiawasthi13/Super-admin">
+              Super Admin Pannel{" "}
+            </a>{" "}
+          </h3>
           <div className="projects-grid">
             <div className="project-card">
               <img
@@ -235,7 +267,9 @@ export default function App() {
               <h3>Restaurants Details Page</h3>
             </div>
           </div>
-          <h3>EatOpay Website</h3>
+          <h3>
+            <a href="https://www.eatopae.in/">EatOpay Website</a>{" "}
+          </h3>
           <div className="projects-grid">
             <div className="project-card">
               <img
