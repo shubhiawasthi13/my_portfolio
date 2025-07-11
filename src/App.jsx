@@ -319,13 +319,13 @@ export default function App() {
             </a>
             <br />
             GitHub:{" "}
-            <a href="https://github.com/yourgithub" className="link">
-              https://github.com/shubhiawasthi13
+            <a href="https://github.com/shubhiawasthi13" className="link">
+              🔗Github
             </a>
             <br />
             LinkedIn:{" "}
-            <a href="https://linkedin.com/in/yourlinkedin" className="link">
-              https://www.linkedin.com/in/shubhi-awasthi-7a5075248?trk=contact-info
+            <a href="https://www.linkedin.com/in/shubhi-awasthi-7a5075248?trk=contact-info" className="link">
+              🔗Linkedin
             </a>
           </div>
         </div>
