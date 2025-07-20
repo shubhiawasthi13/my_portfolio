@@ -43,7 +43,7 @@ export default function App() {
           <h3>Latest Personal project</h3>
           <p>LMS-Learning Mangament System</p>
           <a
-            href="https://growskill-6gaq.onrender.com/"
+            href="https://groww-skill.netlify.app"
             style={{
               color: "white",
               cursor: "pointer",
