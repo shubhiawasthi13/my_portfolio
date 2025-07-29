@@ -33,42 +33,6 @@ export default function App() {
             Contact Me
           </a>
         </div>
-        <div
-          style={{
-            backgroundColor: "#4f46e5",
-            padding: "20px",
-            marginTop: "10px",
-          }}
-        >
-          <h3>Latest Personal project</h3>
-          <p>LMS-Learning Mangament System</p>
-          <a
-            href="https://groww-skill.netlify.app"
-            style={{
-              color: "white",
-              cursor: "pointer",
-              fontSize: "17px",
-              marginRight: "20px",
-            }}
-          >
-            🔗Live Site
-          </a>
-          <a
-            href="https://github.com/shubhiawasthi13/Growskill"
-            style={{ color: "white", cursor: "pointer", fontSize: "17px" }}
-          >
-            📂Source Code
-          </a>
-          <p>
-            💳 <strong>Test Stripe Payment:</strong> Use card number{" "}
-            <code>4242 4242 4242 4242</code>, CVV <code>123</code>, and any
-            future expiry date.
-          </p>
-          <p>
-            🔐 <strong>Admin Panel Login:</strong> Email:{" "}
-            <code>shubhi@gmail.com</code>, Password: <code>1234</code>
-          </p>
-        </div>
       </section>
 
       {/* About Section */}
@@ -133,6 +97,70 @@ export default function App() {
       <section id="projects" className="section projects" data-aos="fade-up">
         <div className="container">
           <h2>Projects</h2>
+          <hr />
+          <h4>GrowSkill - Learning Management System</h4>
+          <p>
+            A full-featured Learning Management System (LMS) built with the MERN
+            stack and a companion mobile app developed using React Native. It
+            includes secure user authentication, video lectures, course progress
+            tracking, and Stripe payment integration—delivering a seamless
+            online learning experience across web and mobile platforms.
+          </p>
+          <strong>Tech Stack</strong> :{" "}
+          <p>
+            Reactjs, Tailwind CSS, RTK, React Native(Expo), RTK Query, JWT,
+            Nodejs, Express, Mongoose,
+          </p>
+          <p>
+            AI: OpenRouter API (Mistral 7B) for dynamic interview questions{" "}
+            <br />
+            PDF Generation: Certificate creation using pdf-lib
+          </p>
+          <p>
+            💳 <strong>Test Stripe Payment:</strong> Use card number{" "}
+            <code>4242 4242 4242 4242</code>, CVV <code>123</code>, and any
+            future expiry date.
+          </p>
+          <p>
+            🔐 <strong>Admin Panel Login:</strong> Email:{" "}
+            <code>shubhi@gmail.com</code>, Password: <code>1234</code>
+          </p>
+          <hr />
+          <h3>
+            <a href="https://groww-skill.netlify.app">🔗Live Site </a>
+          </h3>
+          <div className="projects-grid">
+            <div className="project-card">
+              <img
+                src="./lms.png"
+                alt="cust 1"
+                onClick={() => openImageModal("./lms.png")}
+                className="clickable-img"
+              />
+              <h3>Students Pannel</h3>
+            </div>
+            <div className="project-card">
+              <img
+                src="./lms-admin.png"
+                alt="cust 2"
+                onClick={() => openImageModal("./lms-admin.png")}
+                className="clickable-img"
+              />
+              <h3>Admin Pannel</h3>
+            </div>
+            <div className="project-card">
+              <img
+                src="./lms-app-banner.png"
+                alt="cust 2"
+                onClick={() => openImageModal("./lms_app.png")}
+                className="clickable-img"
+              />
+              <h3>GrowSkill App</h3>
+            </div>
+          </div>
+        </div>
+
+        <div className="container">
           <hr />
           <h4>EatOpay- Digital Menu with Admin Panel</h4>
           <hr />
@@ -324,7 +352,10 @@ export default function App() {
             </a>
             <br />
             LinkedIn:{" "}
-            <a href="https://www.linkedin.com/in/shubhi-awasthi-7a5075248?trk=contact-info" className="link">
+            <a
+              href="https://www.linkedin.com/in/shubhi-awasthi-7a5075248?trk=contact-info"
+              className="link"
+            >
               🔗Linkedin
             </a>
           </div>
