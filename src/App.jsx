@@ -78,7 +78,7 @@ export default function App() {
               "Express",
               "Bootstrap",
               "Tailwind",
-              "Threejs",
+              "Nextjs",
               "Python",
               "Django",
               "Php",
